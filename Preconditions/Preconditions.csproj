@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>ReneWiersma.Preconditions</AssemblyName>
+    <RootNamespace>ReneWiersma.Preconditions</RootNamespace>
+    <Authors>René Wiersma</Authors>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Copyright>Copyright 2020 - René Wiersma</Copyright>
+    <PackageProjectUrl>https://github.com/ReneWiersma/Preconditions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ReneWiersma/Queries</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>Preconditions, precondition, requires, contract, contracts</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
